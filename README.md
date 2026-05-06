@@ -37,7 +37,7 @@ The repository contains the following main components:
 | `data.py`        | Dataset loading functions                             |
 | `revise_data.py` | Data preprocessing and index adjustment               |
 | `utils.py`       | Evaluation metrics and utility functions              |
-| `datasets/`      | Local dataset folder, not included in this repository |
+| `f_loss.py`         | Focal Loss implementation for imbalanced classification |
 | `Early_stopping.py` | Early stopping and checkpoint saving utility          |
 | `datasets/`         | Local dataset folder, not included in this repository |
 ## Run
