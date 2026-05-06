@@ -38,7 +38,8 @@ The repository contains the following main components:
 | `revise_data.py` | Data preprocessing and index adjustment               |
 | `utils.py`       | Evaluation metrics and utility functions              |
 | `datasets/`      | Local dataset folder, not included in this repository |
-
+| `Early_stopping.py` | Early stopping and checkpoint saving utility          |
+| `datasets/`         | Local dataset folder, not included in this repository |
 ## Run
 
 Use the following command to train and test the model:
@@ -46,4 +47,9 @@ Use the following command to train and test the model:
 ```bash
 python main.py --dataset case39 --model pice_gnn --num_layers 4 --hidden 16 --lr 0.001 --batch_size 256
 ```
-The source code is released under the MIT License. The provided example data file is only for demonstrating the input format and forward inference of PICE-GNN.
+## License and Data Availability
+
+The source code in this repository is released under the MIT License.
+
+Due to data confidentiality, power system security considerations, and file size limitations, the full datasets used in the paper are not publicly uploaded to this repository. Researchers who are interested in the datasets may contact the corresponding author for reasonable academic use.
+
