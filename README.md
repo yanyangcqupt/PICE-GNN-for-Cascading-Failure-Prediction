@@ -22,8 +22,6 @@ Each sample contains:
 
 The bus and branch labels indicate the final post-cascade operating states of power system components. A label of 1 denotes normal operation, while a label of 0 denotes failure or out-of-service status after the cascading process.
 
-Due to data confidentiality and system security considerations, the datasets used in the paper are not publicly released in this repository. Users may generate their own cascading failure samples using an AC cascading failure simulation tool and convert them into the required PyTorch Geometric data format.
-
 ## Code Structure
 
 The main training and testing procedures are implemented in `main.py`.
