@@ -49,5 +49,5 @@ python main.py --dataset case39 --model pice_gnn --num_layers 4 --hidden 16 --lr
 
 The source code in this repository is released under the MIT License.
 
-Due to data confidentiality, power system security considerations, and file size limitations, the full datasets used in the paper are not publicly uploaded to this repository. Researchers who are interested in the datasets may contact the corresponding author for reasonable academic use.
+To facilitate reproducibility, the dataset of the IEEE 39-bus system is provided in this repository as an example case for experimental testing. Due to data confidentiality, power system security considerations, and large file sizes, the full datasets of the IEEE 118-bus system and the Polish 2383-bus system are not publicly uploaded. Researchers who are interested in these datasets may contact the corresponding author for reasonable academic use.
 
